@@ -23,6 +23,6 @@ public class GenThree {
      m++;
     }
      
-    System.out.println("the minimum number is:"+currentMin);	
+    System.out.println("The minimal generated number was "+currentMin);	
 	}
 }
