@@ -8,22 +8,14 @@ public class GenThree {
 		// Put your code here
      int a=Integer.parseInt(args[0]);
      int b=Integer.parseInt(args[1]);
-     int min=a;
-     int max=b;
      int m=0;
-     
-     if (a>b)
-     {
-     max=a;
-     min=b;
-     }
-
-     else if(a==b) {System.out.println("there are not numbers between a and b"); }
+     int min=0;
 
     Random random=new Random();
     while (m<3)
     {
      int rnd=random.nextInt(max-min)+min;
+     if(rnd<min){min=rnd;}
      System.out.println(rnd);
      m++;
     }
