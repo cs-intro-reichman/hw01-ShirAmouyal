@@ -8,6 +8,6 @@ public class Coins {
 		int c=Integer.parseInt(args[0]);;
         int q=25; // 1 quarters=25 cents
     
-         System.out.println("use " + c/q +" quarters and "+ c%q +" cents");
+         System.out.println("Use" + c/q +" quarters and "+ c%q +" cents");
 	}
 }
