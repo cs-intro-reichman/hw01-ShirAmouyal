@@ -14,7 +14,7 @@ public class GenThree {
     Random random=new Random();
     while (m<3)
     {
-     int rnd=random.nextInt(max-min)+min;
+     int rnd=random.nextInt();
      if(rnd<min){min=rnd;}
      System.out.println(rnd);
      m++;
